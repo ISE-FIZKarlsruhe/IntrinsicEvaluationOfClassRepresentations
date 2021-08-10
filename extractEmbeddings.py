@@ -62,19 +62,19 @@ def main():
     # filter classes
     classesDf.dropna(subset=["DBpedia"], inplace=True)
 
-    # load word2vec embeddings 
-    word2VecModel = gensim.models.KeyedVectors.load_word2vec_format(dataDir + "pretrained/GoogleNews-vectors-negative300.bin", binary=True) 
-   
-    #pdb.set_trace()
-    # Name, Word2Vec
-    word2VecNameDict = getWord2Vecembeddings([classesDf.index,classesDf["name"]], word2VecModel) 
-    with open(dataDir + 'embeddings/word2Vec_name.pickle', 'wb') as handle:
-        pickle.dump(word2VecNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    
-    # Wiki Abstract, Word2Vec
-    word2VecWikiDict = getWord2Vecembeddings([classesDf.index, classesDf["DBpedia abstract"]], word2VecModel)
-    with open(dataDir + 'embeddings/word2Vec_wikipedia.pickle', 'wb') as handle:
-        pickle.dump(word2VecWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#    # load word2vec embeddings 
+#    word2VecModel = gensim.models.KeyedVectors.load_word2vec_format(dataDir + "pretrained/GoogleNews-vectors-negative300.bin", binary=True) 
+#   
+#    #pdb.set_trace()
+#    # Name, Word2Vec
+#    word2VecNameDict = getWord2Vecembeddings([classesDf.index,classesDf["name"]], word2VecModel) 
+#    with open(dataDir + 'embeddings/word2Vec_name.pickle', 'wb') as handle:
+#        pickle.dump(word2VecNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#    
+#    # Wiki Abstract, Word2Vec
+#    word2VecWikiDict = getWord2Vecembeddings([classesDf.index, classesDf["DBpedia abstract"]], word2VecModel)
+#    with open(dataDir + 'embeddings/word2Vec_wikipedia.pickle', 'wb') as handle:
+#        pickle.dump(word2VecWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     # load BERT
     bertTokenizer = BertTokenizer.from_pretrained("bert-base-cased")
@@ -90,11 +90,11 @@ def main():
 #    with open(dataDir + 'embeddings/bert_wikipedia.pickle', 'wb') as handle:
 #        pickle.dump(bertWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-    # load KG Vec 2go 
-    kgVec2GoModel = KeyedVectors.load(dataDir + "pretrained/sg200_dbpedia_500_8_df_vectors.kv")
-    kgVec2GoDbpediaDict = getKGvec2go([classesDf.index,classesDf["DBpedia"]], kgVec2GoModel) 
-    with open(dataDir + 'embeddings/kgVec2Go_dbpedia.pickle', 'wb') as handle:
-        pickle.dump(kgVec2GoDbpediaDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#    # load KG Vec 2go 
+#    kgVec2GoModel = KeyedVectors.load(dataDir + "pretrained/sg200_dbpedia_500_8_df_vectors.kv")
+#    kgVec2GoDbpediaDict = getKGvec2go([classesDf.index,classesDf["DBpedia"]], kgVec2GoModel) 
+#    with open(dataDir + 'embeddings/kgVec2Go_dbpedia.pickle', 'wb') as handle:
+#        pickle.dump(kgVec2GoDbpediaDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 if __name__ == "__main__":
     main()
