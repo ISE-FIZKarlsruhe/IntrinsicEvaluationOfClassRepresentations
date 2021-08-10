@@ -41,7 +41,7 @@ def getBERTembeddings(data, models):
     last_hidden_state = output["last_hidden_state"]
     pooler = output["pooler_output"]
 
-    embeddings = pooler 
+    embeddings = [x.detach().numpy() for x in pooler]
 
     return dict(zip(keys, embeddings))
 
@@ -86,9 +86,9 @@ def main():
         pickle.dump(bertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
    
     # Wiki Abstract, BERT
-    bertWikiDict = getBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], [bertTokenizer, bertModel])
-    with open(dataDir + 'embeddings/bert_wikipedia.pickle', 'wb') as handle:
-        pickle.dump(bertWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#    bertWikiDict = getBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], [bertTokenizer, bertModel])
+#    with open(dataDir + 'embeddings/bert_wikipedia.pickle', 'wb') as handle:
+#        pickle.dump(bertWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     # load KG Vec 2go 
     kgVec2GoModel = KeyedVectors.load(dataDir + "pretrained/sg200_dbpedia_500_8_df_vectors.kv")
