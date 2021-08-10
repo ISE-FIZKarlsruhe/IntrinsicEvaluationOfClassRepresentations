@@ -1,0 +1,5 @@
+model;precision;recall;fscore;support
+data/embeddings/class2aikg_TransE.pickle;0.5014005602240896;0.5966666666666667;0.5449010654490106;
+data/embeddings/word2Vec_name.pickle;0.6676470588235294;0.7566666666666667;0.709375;
+data/embeddings/class2aikg_TransR.pickle;0.4984894259818731;0.55;0.5229793977812995;
+data/embeddings/word2Vec_wikipedia.pickle;0.6818181818181818;0.65;0.6655290102389079;

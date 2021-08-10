@@ -1,0 +1,1021 @@
+Anchor,A,B,Label
+Artificial Intelligence,Computation and Language,Computational Geometry,A
+Artificial Intelligence,Computation and Language,Cryptography and Security,A
+Artificial Intelligence,Computation and Language,Formal Languages and Automata Theory,B
+Artificial Intelligence,Computational Geometry,Computational Complexity,B
+Artificial Intelligence,Computational Geometry,Symbolic Computation,B
+Artificial Intelligence,Computer Science and Game Theory,Symbolic Computation,A
+Artificial Intelligence,Digital Libraries,Information Retrieval,B
+Artificial Intelligence,Discrete Mathematics,Cryptography and Security,B
+Artificial Intelligence,Discrete Mathematics,Symbolic Computation,B
+Artificial Intelligence,Discrete Mathematics,Systems and Control,B
+Artificial Intelligence,Formal Languages and Automata Theory,Computer Vision and Pattern Recognition,B
+Artificial Intelligence,Formal Languages and Automata Theory,Systems and Control,A
+Artificial Intelligence,Hardware Architecture,Computer Science and Game Theory,B
+Artificial Intelligence,Hardware Architecture,Logic in Computer Science,B
+Artificial Intelligence,Hardware Architecture,Software Engineering,B
+Artificial Intelligence,Human-Computer Interaction,Computer Vision and Pattern Recognition,B
+Artificial Intelligence,Human-Computer Interaction,Logic in Computer Science,A
+Artificial Intelligence,Information Retrieval,Symbolic Computation,A
+Artificial Intelligence,Information Theory,Cryptography and Security,A
+Artificial Intelligence,Information Theory,Graphics,A
+Artificial Intelligence,Information Theory,Information Retrieval,A
+Artificial Intelligence,Machine Learning,Computational Complexity,A
+Artificial Intelligence,Machine Learning,Information Retrieval,A
+Artificial Intelligence,Machine Learning,Multimedia,A
+Artificial Intelligence,Mathematical Software,Networking and Internet Architecture,B
+Artificial Intelligence,Multiagent Systems,Formal Languages and Automata Theory,A
+Artificial Intelligence,Multiagent Systems,Operating Systems,A
+Artificial Intelligence,Numerical Analysis,Symbolic Computation,B
+Artificial Intelligence,Operating Systems,Computer Science and Game Theory,B
+Artificial Intelligence,Operating Systems,Formal Languages and Automata Theory,B
+Artificial Intelligence,Operating Systems,Multimedia,B
+Artificial Intelligence,Programming Languages,Information Theory,B
+Artificial Intelligence,Programming Languages,Systems and Control,B
+Artificial Intelligence,Robotics,Operating Systems,A
+Artificial Intelligence,Software Engineering,Computational Geometry,A
+Computation and Language,Artificial Intelligence,Symbolic Computation,A
+Computation and Language,Computational Geometry,Numerical Analysis,A
+Computation and Language,Cryptography and Security,Artificial Intelligence,B
+Computation and Language,Cryptography and Security,Systems and Control,A
+Computation and Language,Digital Libraries,Computational Complexity,B
+Computation and Language,Digital Libraries,Machine Learning,B
+Computation and Language,Digital Libraries,Robotics,B
+Computation and Language,Discrete Mathematics,Computational Geometry,B
+Computation and Language,Discrete Mathematics,Machine Learning,B
+Computation and Language,Discrete Mathematics,Systems and Control,B
+Computation and Language,Formal Languages and Automata Theory,Symbolic Computation,A
+Computation and Language,Formal Languages and Automata Theory,Systems and Control,A
+Computation and Language,Graphics,Computer Science and Game Theory,B
+Computation and Language,Graphics,Logic in Computer Science,B
+Computation and Language,Hardware Architecture,Computer Vision and Pattern Recognition,B
+Computation and Language,Human-Computer Interaction,Systems and Control,A
+Computation and Language,Machine Learning,Mathematical Software,A
+Computation and Language,Machine Learning,Networking and Internet Architecture,A
+Computation and Language,Multiagent Systems,Information Theory,B
+Computation and Language,Multiagent Systems,Mathematical Software,A
+Computation and Language,Multimedia,Computer Vision and Pattern Recognition,B
+Computation and Language,Operating Systems,Cryptography and Security,B
+Computation and Language,Robotics,Cryptography and Security,A
+Computation and Language,Robotics,Numerical Analysis,A
+Computation and Language,Software Engineering,Computer Vision and Pattern Recognition,B
+Computation and Language,Software Engineering,Systems and Control,B
+Computation and Language,Sound,Information Retrieval,B
+Computational Complexity,Computation and Language,Artificial Intelligence,B
+Computational Complexity,Computation and Language,Formal Languages and Automata Theory,B
+Computational Complexity,Computation and Language,Information Theory,B
+Computational Complexity,Cryptography and Security,Mathematical Software,A
+Computational Complexity,Databases,Robotics,B
+Computational Complexity,Digital Libraries,Computational Geometry,B
+Computational Complexity,Digital Libraries,Information Retrieval,B
+Computational Complexity,Digital Libraries,Multiagent Systems,B
+Computational Complexity,Digital Libraries,Networking and Internet Architecture,B
+Computational Complexity,Digital Libraries,Numerical Analysis,B
+Computational Complexity,Discrete Mathematics,Artificial Intelligence,B
+Computational Complexity,Discrete Mathematics,Computational Geometry,B
+Computational Complexity,Discrete Mathematics,Sound,A
+Computational Complexity,"Distributed, Parallel, and Cluster Computing",Software Engineering,A
+Computational Complexity,Formal Languages and Automata Theory,Information Retrieval,A
+Computational Complexity,Graphics,Artificial Intelligence,B
+Computational Complexity,Human-Computer Interaction,Graphics,A
+Computational Complexity,Human-Computer Interaction,Numerical Analysis,B
+Computational Complexity,Information Theory,Cryptography and Security,A
+Computational Complexity,Machine Learning,Information Theory,B
+Computational Complexity,Multiagent Systems,Computation and Language,B
+Computational Complexity,Multiagent Systems,Cryptography and Security,B
+Computational Complexity,Multiagent Systems,Formal Languages and Automata Theory,B
+Computational Complexity,Multimedia,Graphics,B
+Computational Complexity,Multimedia,Information Retrieval,B
+Computational Complexity,Operating Systems,Cryptography and Security,B
+Computational Complexity,Operating Systems,Mathematical Software,B
+Computational Complexity,Programming Languages,Human-Computer Interaction,B
+Computational Complexity,Programming Languages,Information Retrieval,B
+Computational Complexity,Software Engineering,Networking and Internet Architecture,B
+Computational Complexity,Sound,Symbolic Computation,B
+Computational Complexity,Systems and Control,Symbolic Computation,B
+Computational Geometry,Computation and Language,Information Retrieval,B
+Computational Geometry,Computation and Language,Information Theory,B
+Computational Geometry,Computer Science and Game Theory,Networking and Internet Architecture,A
+Computational Geometry,Databases,Sound,A
+Computational Geometry,Digital Libraries,Computation and Language,B
+Computational Geometry,Digital Libraries,Information Theory,B
+Computational Geometry,Digital Libraries,Networking and Internet Architecture,B
+Computational Geometry,Digital Libraries,Operating Systems,A
+Computational Geometry,Discrete Mathematics,Mathematical Software,A
+Computational Geometry,"Distributed, Parallel, and Cluster Computing",Cryptography and Security,B
+Computational Geometry,Formal Languages and Automata Theory,Information Theory,B
+Computational Geometry,Hardware Architecture,Graphics,B
+Computational Geometry,Hardware Architecture,Networking and Internet Architecture,B
+Computational Geometry,Machine Learning,Information Theory,B
+Computational Geometry,Machine Learning,Networking and Internet Architecture,B
+Computational Geometry,Multimedia,Computer Vision and Pattern Recognition,B
+Computational Geometry,Multimedia,Networking and Internet Architecture,B
+Computational Geometry,Multimedia,Symbolic Computation,B
+Computational Geometry,Numerical Analysis,Artificial Intelligence,A
+Computational Geometry,Operating Systems,Computer Vision and Pattern Recognition,B
+Computational Geometry,Programming Languages,Artificial Intelligence,B
+Computational Geometry,Robotics,Cryptography and Security,B
+Computational Geometry,Robotics,Mathematical Software,A
+Computational Geometry,Robotics,Numerical Analysis,0
+Computational Geometry,Software Engineering,Numerical Analysis,A
+Computational Geometry,Software Engineering,Symbolic Computation,B
+Computational Geometry,Software Engineering,Systems and Control,B
+Computer Science and Game Theory,Computation and Language,Software Engineering,A
+Computer Science and Game Theory,Computational Complexity,Information Retrieval,A
+Computer Science and Game Theory,Computational Complexity,Numerical Analysis,A
+Computer Science and Game Theory,Computational Geometry,Logic in Computer Science,B
+Computer Science and Game Theory,Computational Geometry,Multimedia,0
+Computer Science and Game Theory,Computational Geometry,Systems and Control,0
+Computer Science and Game Theory,Computer Vision and Pattern Recognition,Computational Complexity,B
+Computer Science and Game Theory,Cryptography and Security,Numerical Analysis,B
+Computer Science and Game Theory,Databases,Discrete Mathematics,B
+Computer Science and Game Theory,Databases,Information Theory,B
+Computer Science and Game Theory,Databases,Symbolic Computation,0
+Computer Science and Game Theory,Digital Libraries,Information Retrieval,0
+Computer Science and Game Theory,Discrete Mathematics,Information Theory,A
+Computer Science and Game Theory,Discrete Mathematics,Systems and Control,A
+Computer Science and Game Theory,Hardware Architecture,Systems and Control,0
+Computer Science and Game Theory,Human-Computer Interaction,Multimedia,0
+Computer Science and Game Theory,Information Theory,Information Retrieval,A
+Computer Science and Game Theory,Mathematical Software,Computational Complexity,0
+Computer Science and Game Theory,Multiagent Systems,Software Engineering,0
+Computer Science and Game Theory,Operating Systems,Computational Complexity,B
+Computer Science and Game Theory,Operating Systems,Computational Geometry,B
+Computer Science and Game Theory,Operating Systems,Graphics,0
+Computer Science and Game Theory,Programming Languages,Artificial Intelligence,B
+Computer Science and Game Theory,Programming Languages,Computational Geometry,0
+Computer Science and Game Theory,Programming Languages,Information Retrieval,0
+Computer Science and Game Theory,Programming Languages,Robotics,B
+Computer Science and Game Theory,Robotics,Computational Geometry,A
+Computer Science and Game Theory,Robotics,Operating Systems,A
+Computer Science and Game Theory,Software Engineering,Networking and Internet Architecture,B
+Computer Vision and Pattern Recognition,Computation and Language,Logic in Computer Science,A
+Computer Vision and Pattern Recognition,Computation and Language,Sound,A
+Computer Vision and Pattern Recognition,Computational Geometry,Symbolic Computation,B
+Computer Vision and Pattern Recognition,Databases,Discrete Mathematics,B
+Computer Vision and Pattern Recognition,Databases,Formal Languages and Automata Theory,B
+Computer Vision and Pattern Recognition,Digital Libraries,Multimedia,B
+Computer Vision and Pattern Recognition,Discrete Mathematics,"Distributed, Parallel, and Cluster Computing",B
+Computer Vision and Pattern Recognition,"Distributed, Parallel, and Cluster Computing",Computation and Language,B
+Computer Vision and Pattern Recognition,"Distributed, Parallel, and Cluster Computing",Multimedia,B
+Computer Vision and Pattern Recognition,Formal Languages and Automata Theory,Computer Science and Game Theory,A
+Computer Vision and Pattern Recognition,Graphics,Networking and Internet Architecture,A
+Computer Vision and Pattern Recognition,Hardware Architecture,Computation and Language,B
+Computer Vision and Pattern Recognition,Hardware Architecture,Cryptography and Security,B
+Computer Vision and Pattern Recognition,Hardware Architecture,Information Retrieval,B
+Computer Vision and Pattern Recognition,Hardware Architecture,Machine Learning,B
+Computer Vision and Pattern Recognition,Hardware Architecture,Systems and Control,0
+Computer Vision and Pattern Recognition,Human-Computer Interaction,Information Theory,A
+Computer Vision and Pattern Recognition,Human-Computer Interaction,Mathematical Software,A
+Computer Vision and Pattern Recognition,Human-Computer Interaction,Software Engineering,A
+Computer Vision and Pattern Recognition,Logic in Computer Science,Numerical Analysis,A
+Computer Vision and Pattern Recognition,Machine Learning,Computational Geometry,A
+Computer Vision and Pattern Recognition,Mathematical Software,Artificial Intelligence,B
+Computer Vision and Pattern Recognition,Multiagent Systems,Formal Languages and Automata Theory,B
+Computer Vision and Pattern Recognition,Multiagent Systems,Numerical Analysis,B
+Computer Vision and Pattern Recognition,Multiagent Systems,Robotics,B
+Computer Vision and Pattern Recognition,Operating Systems,Computer Science and Game Theory,B
+Computer Vision and Pattern Recognition,Operating Systems,Graphics,B
+Computer Vision and Pattern Recognition,Operating Systems,Machine Learning,B
+Computer Vision and Pattern Recognition,Operating Systems,Systems and Control,0
+Computer Vision and Pattern Recognition,Programming Languages,Machine Learning,B
+Computer Vision and Pattern Recognition,Programming Languages,Sound,A
+Computer Vision and Pattern Recognition,Robotics,Graphics,A
+Computer Vision and Pattern Recognition,Robotics,Information Theory,A
+Computer Vision and Pattern Recognition,Software Engineering,Multimedia,0
+Computer Vision and Pattern Recognition,Software Engineering,Systems and Control,0
+Computer Vision and Pattern Recognition,Sound,Numerical Analysis,B
+Computer Vision and Pattern Recognition,Sound,Symbolic Computation,B
+Computer Vision and Pattern Recognition,Systems and Control,Information Retrieval,B
+Cryptography and Security,Computational Geometry,Graphics,0
+Cryptography and Security,Computer Vision and Pattern Recognition,Artificial Intelligence,B
+Cryptography and Security,Databases,Computational Geometry,A
+Cryptography and Security,Databases,Graphics,A
+Cryptography and Security,Digital Libraries,Discrete Mathematics,0
+Cryptography and Security,Digital Libraries,Information Theory,B
+Cryptography and Security,Discrete Mathematics,Machine Learning,B
+Cryptography and Security,"Distributed, Parallel, and Cluster Computing",Formal Languages and Automata Theory,A
+Cryptography and Security,"Distributed, Parallel, and Cluster Computing",Symbolic Computation,A
+Cryptography and Security,Formal Languages and Automata Theory,Artificial Intelligence,B
+Cryptography and Security,Formal Languages and Automata Theory,Computational Geometry,A
+Cryptography and Security,Graphics,Mathematical Software,0
+Cryptography and Security,Hardware Architecture,Artificial Intelligence,B
+Cryptography and Security,Hardware Architecture,Systems and Control,0
+Cryptography and Security,Human-Computer Interaction,Computational Complexity,B
+Cryptography and Security,Human-Computer Interaction,Systems and Control,0
+Cryptography and Security,Information Theory,Computer Vision and Pattern Recognition,A
+Cryptography and Security,Logic in Computer Science,Information Retrieval,A
+Cryptography and Security,Logic in Computer Science,Symbolic Computation,A
+Cryptography and Security,Mathematical Software,Computer Vision and Pattern Recognition,0
+Cryptography and Security,Mathematical Software,Symbolic Computation,0
+Cryptography and Security,Multiagent Systems,Discrete Mathematics,A
+Cryptography and Security,Multiagent Systems,Human-Computer Interaction,A
+Cryptography and Security,Multimedia,Artificial Intelligence,B
+Cryptography and Security,Multimedia,Computational Complexity,B
+Cryptography and Security,Multimedia,Mathematical Software,0
+Cryptography and Security,Multimedia,Symbolic Computation,0
+Cryptography and Security,Networking and Internet Architecture,Symbolic Computation,A
+Cryptography and Security,Operating Systems,Machine Learning,B
+Cryptography and Security,Programming Languages,Machine Learning,B
+Cryptography and Security,Programming Languages,Operating Systems,B
+Cryptography and Security,Robotics,Formal Languages and Automata Theory,B
+Cryptography and Security,Robotics,Software Engineering,B
+Cryptography and Security,Robotics,Symbolic Computation,B
+Cryptography and Security,Software Engineering,Artificial Intelligence,B
+Cryptography and Security,Software Engineering,Information Theory,B
+Cryptography and Security,Sound,Computational Complexity,B
+Cryptography and Security,Sound,Numerical Analysis,B
+Databases,Computation and Language,Information Retrieval,B
+Databases,Computer Science and Game Theory,Information Retrieval,B
+Databases,Digital Libraries,Computational Geometry,A
+Databases,Discrete Mathematics,Computer Vision and Pattern Recognition,0
+Databases,Discrete Mathematics,"Distributed, Parallel, and Cluster Computing",0
+Databases,"Distributed, Parallel, and Cluster Computing",Artificial Intelligence,A
+Databases,"Distributed, Parallel, and Cluster Computing",Computer Vision and Pattern Recognition,A
+Databases,"Distributed, Parallel, and Cluster Computing",Machine Learning,A
+Databases,Formal Languages and Automata Theory,Computational Geometry,0
+Databases,Formal Languages and Automata Theory,Computer Science and Game Theory,B
+Databases,Formal Languages and Automata Theory,Mathematical Software,B
+Databases,Formal Languages and Automata Theory,Multimedia,B
+Databases,Formal Languages and Automata Theory,Software Engineering,B
+Databases,Graphics,Computational Complexity,A
+Databases,Graphics,Computer Vision and Pattern Recognition,A
+Databases,Graphics,Logic in Computer Science,A
+Databases,Hardware Architecture,Computational Complexity,B
+Databases,Hardware Architecture,Mathematical Software,B
+Databases,Hardware Architecture,Sound,0
+Databases,Human-Computer Interaction,Machine Learning,B
+Databases,Human-Computer Interaction,Multimedia,B
+Databases,Human-Computer Interaction,Software Engineering,B
+Databases,Information Theory,Computer Vision and Pattern Recognition,A
+Databases,Machine Learning,Formal Languages and Automata Theory,A
+Databases,Machine Learning,Networking and Internet Architecture,A
+Databases,Programming Languages,Cryptography and Security,B
+Databases,Programming Languages,Symbolic Computation,0
+Databases,Robotics,Computational Complexity,B
+Databases,Software Engineering,Artificial Intelligence,A
+Databases,Software Engineering,Cryptography and Security,A
+Databases,Software Engineering,Graphics,A
+Databases,Software Engineering,Logic in Computer Science,A
+Databases,Sound,Logic in Computer Science,A
+Databases,Sound,Networking and Internet Architecture,B
+Databases,Systems and Control,Symbolic Computation,A
+Digital Libraries,Artificial Intelligence,Networking and Internet Architecture,B
+Digital Libraries,Computation and Language,Graphics,B
+Digital Libraries,Computation and Language,Mathematical Software,B
+Digital Libraries,Computation and Language,Multimedia,B
+Digital Libraries,Computational Geometry,Numerical Analysis,0
+Digital Libraries,Computer Science and Game Theory,Symbolic Computation,A
+Digital Libraries,Computer Vision and Pattern Recognition,Numerical Analysis,A
+Digital Libraries,Cryptography and Security,Graphics,B
+Digital Libraries,Databases,Formal Languages and Automata Theory,A
+Digital Libraries,Discrete Mathematics,Artificial Intelligence,B
+Digital Libraries,Discrete Mathematics,Computer Science and Game Theory,B
+Digital Libraries,Discrete Mathematics,"Distributed, Parallel, and Cluster Computing",B
+Digital Libraries,Discrete Mathematics,Formal Languages and Automata Theory,B
+Digital Libraries,"Distributed, Parallel, and Cluster Computing",Information Retrieval,A
+Digital Libraries,"Distributed, Parallel, and Cluster Computing",Operating Systems,A
+Digital Libraries,Formal Languages and Automata Theory,Graphics,B
+Digital Libraries,Graphics,Systems and Control,B
+Digital Libraries,Hardware Architecture,Computation and Language,A
+Digital Libraries,Hardware Architecture,Computer Science and Game Theory,B
+Digital Libraries,Hardware Architecture,Computer Vision and Pattern Recognition,B
+Digital Libraries,Hardware Architecture,Programming Languages,A
+Digital Libraries,Information Retrieval,Symbolic Computation,A
+Digital Libraries,Information Theory,Multimedia,B
+Digital Libraries,Machine Learning,Artificial Intelligence,B
+Digital Libraries,Mathematical Software,Numerical Analysis,A
+Digital Libraries,Multiagent Systems,Multimedia,B
+Digital Libraries,Networking and Internet Architecture,Symbolic Computation,A
+Digital Libraries,Numerical Analysis,Symbolic Computation,A
+Digital Libraries,Operating Systems,Formal Languages and Automata Theory,A
+Digital Libraries,Operating Systems,Mathematical Software,A
+Digital Libraries,Operating Systems,Multimedia,B
+Digital Libraries,Programming Languages,Computational Geometry,0
+Digital Libraries,Programming Languages,Cryptography and Security,B
+Digital Libraries,Programming Languages,Information Retrieval,B
+Digital Libraries,Programming Languages,Information Theory,B
+Digital Libraries,Programming Languages,Mathematical Software,B
+Digital Libraries,Robotics,Computation and Language,A
+Digital Libraries,Software Engineering,Computational Geometry,A
+Digital Libraries,Software Engineering,Computer Science and Game Theory,A
+Digital Libraries,Sound,Logic in Computer Science,A
+Digital Libraries,Sound,Symbolic Computation,A
+Digital Libraries,Systems and Control,Information Retrieval,B
+Discrete Mathematics,Computation and Language,Numerical Analysis,B
+Discrete Mathematics,Computational Complexity,Artificial Intelligence,A
+Discrete Mathematics,Computational Geometry,Information Retrieval,B
+Discrete Mathematics,Cryptography and Security,Computer Science and Game Theory,A
+Discrete Mathematics,Cryptography and Security,Information Retrieval,B
+Discrete Mathematics,Cryptography and Security,Networking and Internet Architecture,A
+Discrete Mathematics,Cryptography and Security,Systems and Control,A
+Discrete Mathematics,Databases,Computer Vision and Pattern Recognition,B
+Discrete Mathematics,Databases,Cryptography and Security,B
+Discrete Mathematics,Digital Libraries,Cryptography and Security,B
+Discrete Mathematics,Digital Libraries,Human-Computer Interaction,B
+Discrete Mathematics,Digital Libraries,Information Retrieval,B
+Discrete Mathematics,Digital Libraries,Machine Learning,B
+Discrete Mathematics,Digital Libraries,Multiagent Systems,B
+Discrete Mathematics,Digital Libraries,Networking and Internet Architecture,0
+Discrete Mathematics,Formal Languages and Automata Theory,Cryptography and Security,A
+Discrete Mathematics,Formal Languages and Automata Theory,Symbolic Computation,B
+Discrete Mathematics,Hardware Architecture,Artificial Intelligence,B
+Discrete Mathematics,Hardware Architecture,Multiagent Systems,B
+Discrete Mathematics,Hardware Architecture,Numerical Analysis,B
+Discrete Mathematics,Hardware Architecture,Symbolic Computation,B
+Discrete Mathematics,Human-Computer Interaction,Robotics,0
+Discrete Mathematics,Information Retrieval,Networking and Internet Architecture,A
+Discrete Mathematics,Information Theory,Symbolic Computation,B
+Discrete Mathematics,Logic in Computer Science,Computational Complexity,A
+Discrete Mathematics,Logic in Computer Science,Symbolic Computation,B
+Discrete Mathematics,Machine Learning,Networking and Internet Architecture,A
+Discrete Mathematics,Multimedia,Networking and Internet Architecture,A
+Discrete Mathematics,Multimedia,Numerical Analysis,B
+Discrete Mathematics,Numerical Analysis,Networking and Internet Architecture,A
+Discrete Mathematics,Robotics,Information Retrieval,B
+Discrete Mathematics,Robotics,Operating Systems,A
+Discrete Mathematics,Software Engineering,Computer Science and Game Theory,B
+Discrete Mathematics,Sound,Information Theory,B
+Discrete Mathematics,Sound,Numerical Analysis,B
+Discrete Mathematics,Sound,Software Engineering,0
+Discrete Mathematics,Systems and Control,Numerical Analysis,B
+"Distributed, Parallel, and Cluster Computing",Computation and Language,Information Retrieval,B
+"Distributed, Parallel, and Cluster Computing",Computation and Language,Software Engineering,B
+"Distributed, Parallel, and Cluster Computing",Computational Geometry,Multimedia,B
+"Distributed, Parallel, and Cluster Computing",Cryptography and Security,Information Retrieval,B
+"Distributed, Parallel, and Cluster Computing",Databases,Human-Computer Interaction,A
+"Distributed, Parallel, and Cluster Computing",Databases,Information Theory,B
+"Distributed, Parallel, and Cluster Computing",Digital Libraries,Computational Geometry,A
+"Distributed, Parallel, and Cluster Computing",Digital Libraries,Discrete Mathematics,A
+"Distributed, Parallel, and Cluster Computing",Discrete Mathematics,Human-Computer Interaction,0
+"Distributed, Parallel, and Cluster Computing",Discrete Mathematics,Mathematical Software,0
+"Distributed, Parallel, and Cluster Computing",Formal Languages and Automata Theory,Mathematical Software,0
+"Distributed, Parallel, and Cluster Computing",Graphics,Numerical Analysis,A
+"Distributed, Parallel, and Cluster Computing",Hardware Architecture,Graphics,A
+"Distributed, Parallel, and Cluster Computing",Hardware Architecture,Information Retrieval,A
+"Distributed, Parallel, and Cluster Computing",Hardware Architecture,Mathematical Software,A
+"Distributed, Parallel, and Cluster Computing",Hardware Architecture,Operating Systems,A
+"Distributed, Parallel, and Cluster Computing",Multiagent Systems,Computational Complexity,B
+"Distributed, Parallel, and Cluster Computing",Multimedia,Artificial Intelligence,A
+"Distributed, Parallel, and Cluster Computing",Multimedia,Computational Complexity,B
+"Distributed, Parallel, and Cluster Computing",Numerical Analysis,Networking and Internet Architecture,B
+"Distributed, Parallel, and Cluster Computing",Numerical Analysis,Symbolic Computation,B
+"Distributed, Parallel, and Cluster Computing",Operating Systems,Software Engineering,A
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Computer Vision and Pattern Recognition,A
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Logic in Computer Science,B
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Multimedia,B
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Networking and Internet Architecture,B
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Software Engineering,B
+"Distributed, Parallel, and Cluster Computing",Programming Languages,Systems and Control,B
+"Distributed, Parallel, and Cluster Computing",Robotics,Artificial Intelligence,B
+"Distributed, Parallel, and Cluster Computing",Robotics,Multimedia,B
+"Distributed, Parallel, and Cluster Computing",Robotics,Numerical Analysis,B
+"Distributed, Parallel, and Cluster Computing",Robotics,Software Engineering,B
+"Distributed, Parallel, and Cluster Computing",Software Engineering,Mathematical Software,A
+"Distributed, Parallel, and Cluster Computing",Software Engineering,Networking and Internet Architecture,B
+"Distributed, Parallel, and Cluster Computing",Sound,Mathematical Software,B
+"Distributed, Parallel, and Cluster Computing",Sound,Symbolic Computation,B
+"Distributed, Parallel, and Cluster Computing",Sound,Systems and Control,B
+Formal Languages and Automata Theory,Computation and Language,Symbolic Computation,A
+Formal Languages and Automata Theory,Computer Vision and Pattern Recognition,Computational Complexity,B
+Formal Languages and Automata Theory,Computer Vision and Pattern Recognition,Symbolic Computation,B
+Formal Languages and Automata Theory,Databases,Discrete Mathematics,B
+Formal Languages and Automata Theory,Databases,Human-Computer Interaction,0
+Formal Languages and Automata Theory,Digital Libraries,Computer Vision and Pattern Recognition,B
+Formal Languages and Automata Theory,Digital Libraries,Machine Learning,B
+Formal Languages and Automata Theory,Digital Libraries,Networking and Internet Architecture,0
+Formal Languages and Automata Theory,Discrete Mathematics,Artificial Intelligence,B
+Formal Languages and Automata Theory,Discrete Mathematics,Logic in Computer Science,B
+Formal Languages and Automata Theory,"Distributed, Parallel, and Cluster Computing",Software Engineering,A
+Formal Languages and Automata Theory,Hardware Architecture,"Distributed, Parallel, and Cluster Computing",B
+Formal Languages and Automata Theory,Information Retrieval,Numerical Analysis,B
+Formal Languages and Automata Theory,Information Theory,Information Retrieval,A
+Formal Languages and Automata Theory,Machine Learning,Computer Science and Game Theory,B
+Formal Languages and Automata Theory,Machine Learning,Information Theory,B
+Formal Languages and Automata Theory,Mathematical Software,Computational Complexity,B
+Formal Languages and Automata Theory,Mathematical Software,Numerical Analysis,B
+Formal Languages and Automata Theory,Multiagent Systems,Discrete Mathematics,B
+Formal Languages and Automata Theory,Multiagent Systems,Numerical Analysis,B
+Formal Languages and Automata Theory,Multiagent Systems,Sound,A
+Formal Languages and Automata Theory,Multimedia,Systems and Control,B
+Formal Languages and Automata Theory,Programming Languages,Logic in Computer Science,B
+Formal Languages and Automata Theory,Programming Languages,Numerical Analysis,B
+Formal Languages and Automata Theory,Programming Languages,Software Engineering,0
+Formal Languages and Automata Theory,Programming Languages,Sound,0
+Formal Languages and Automata Theory,Robotics,Computation and Language,B
+Formal Languages and Automata Theory,Robotics,Computational Complexity,B
+Formal Languages and Automata Theory,Robotics,Cryptography and Security,B
+Formal Languages and Automata Theory,Sound,Artificial Intelligence,B
+Formal Languages and Automata Theory,Systems and Control,Information Retrieval,0
+Graphics,Computation and Language,Computer Science and Game Theory,B
+Graphics,Computation and Language,Systems and Control,0
+Graphics,Computational Geometry,Artificial Intelligence,B
+Graphics,Computational Geometry,Cryptography and Security,A
+Graphics,Computer Vision and Pattern Recognition,Information Retrieval,A
+Graphics,Databases,Computation and Language,A
+Graphics,Databases,Discrete Mathematics,A
+Graphics,Databases,Human-Computer Interaction,A
+Graphics,Databases,Robotics,B
+Graphics,Digital Libraries,Sound,A
+Graphics,"Distributed, Parallel, and Cluster Computing",Sound,0
+Graphics,Formal Languages and Automata Theory,Artificial Intelligence,B
+Graphics,Formal Languages and Automata Theory,Information Retrieval,B
+Graphics,Formal Languages and Automata Theory,Numerical Analysis,0
+Graphics,Formal Languages and Automata Theory,Systems and Control,0
+Graphics,Hardware Architecture,Digital Libraries,B
+Graphics,Hardware Architecture,Information Theory,B
+Graphics,Hardware Architecture,Multimedia,B
+Graphics,Hardware Architecture,Sound,0
+Graphics,Machine Learning,Formal Languages and Automata Theory,A
+Graphics,Machine Learning,Multimedia,B
+Graphics,Machine Learning,Networking and Internet Architecture,A
+Graphics,Machine Learning,Symbolic Computation,A
+Graphics,Mathematical Software,Networking and Internet Architecture,0
+Graphics,Mathematical Software,Symbolic Computation,0
+Graphics,Multiagent Systems,Sound,A
+Graphics,Multimedia,Logic in Computer Science,A
+Graphics,Multimedia,Systems and Control,A
+Graphics,Programming Languages,Computer Science and Game Theory,0
+Graphics,Robotics,Computational Geometry,B
+Graphics,Robotics,Formal Languages and Automata Theory,A
+Graphics,Robotics,Mathematical Software,A
+Graphics,Robotics,Systems and Control,A
+Graphics,Software Engineering,Multimedia,B
+Graphics,Systems and Control,Information Retrieval,B
+Hardware Architecture,Artificial Intelligence,Networking and Internet Architecture,B
+Hardware Architecture,Computation and Language,Logic in Computer Science,B
+Hardware Architecture,Computation and Language,Systems and Control,B
+Hardware Architecture,Computational Complexity,Numerical Analysis,A
+Hardware Architecture,Computational Geometry,Computer Vision and Pattern Recognition,0
+Hardware Architecture,Cryptography and Security,Logic in Computer Science,A
+Hardware Architecture,Cryptography and Security,Systems and Control,B
+Hardware Architecture,Digital Libraries,Computer Science and Game Theory,A
+Hardware Architecture,Digital Libraries,Information Retrieval,A
+Hardware Architecture,Digital Libraries,Networking and Internet Architecture,B
+Hardware Architecture,Discrete Mathematics,Computation and Language,A
+Hardware Architecture,Discrete Mathematics,Operating Systems,B
+Hardware Architecture,"Distributed, Parallel, and Cluster Computing",Logic in Computer Science,A
+Hardware Architecture,Formal Languages and Automata Theory,Cryptography and Security,B
+Hardware Architecture,Graphics,Computer Vision and Pattern Recognition,0
+Hardware Architecture,Human-Computer Interaction,Mathematical Software,0
+Hardware Architecture,Information Theory,Cryptography and Security,B
+Hardware Architecture,Mathematical Software,Artificial Intelligence,B
+Hardware Architecture,Multiagent Systems,Artificial Intelligence,A
+Hardware Architecture,Multiagent Systems,Cryptography and Security,A
+Hardware Architecture,Multimedia,Systems and Control,B
+Hardware Architecture,Operating Systems,Numerical Analysis,A
+Hardware Architecture,Operating Systems,Sound,A
+Hardware Architecture,Operating Systems,Symbolic Computation,A
+Hardware Architecture,Programming Languages,Computation and Language,A
+Hardware Architecture,Programming Languages,Networking and Internet Architecture,B
+Hardware Architecture,Robotics,Graphics,A
+Hardware Architecture,Robotics,Logic in Computer Science,A
+Hardware Architecture,Robotics,Machine Learning,A
+Hardware Architecture,Robotics,Systems and Control,B
+Hardware Architecture,Sound,Cryptography and Security,A
+Human-Computer Interaction,Computation and Language,Logic in Computer Science,A
+Human-Computer Interaction,Computation and Language,Systems and Control,A
+Human-Computer Interaction,Databases,Cryptography and Security,A
+Human-Computer Interaction,Databases,Formal Languages and Automata Theory,B
+Human-Computer Interaction,Databases,Networking and Internet Architecture,A
+Human-Computer Interaction,Digital Libraries,Computer Science and Game Theory,B
+Human-Computer Interaction,Digital Libraries,Cryptography and Security,0
+Human-Computer Interaction,Discrete Mathematics,Computer Vision and Pattern Recognition,B
+Human-Computer Interaction,"Distributed, Parallel, and Cluster Computing",Computer Vision and Pattern Recognition,B
+Human-Computer Interaction,"Distributed, Parallel, and Cluster Computing",Numerical Analysis,A
+Human-Computer Interaction,"Distributed, Parallel, and Cluster Computing",Systems and Control,A
+Human-Computer Interaction,Formal Languages and Automata Theory,Multimedia,B
+Human-Computer Interaction,Formal Languages and Automata Theory,Software Engineering,A
+Human-Computer Interaction,Hardware Architecture,Sound,B
+Human-Computer Interaction,Information Theory,Computer Vision and Pattern Recognition,B
+Human-Computer Interaction,Machine Learning,Numerical Analysis,A
+Human-Computer Interaction,Multimedia,Artificial Intelligence,A
+Human-Computer Interaction,Multimedia,Computer Vision and Pattern Recognition,A
+Human-Computer Interaction,Numerical Analysis,Networking and Internet Architecture,0
+Human-Computer Interaction,Operating Systems,Computer Vision and Pattern Recognition,B
+Human-Computer Interaction,Operating Systems,Networking and Internet Architecture,A
+Human-Computer Interaction,Operating Systems,Systems and Control,B
+Human-Computer Interaction,Programming Languages,Operating Systems,B
+Human-Computer Interaction,Programming Languages,Robotics,B
+Human-Computer Interaction,Robotics,Formal Languages and Automata Theory,A
+Human-Computer Interaction,Robotics,Software Engineering,A
+Human-Computer Interaction,Software Engineering,Computer Vision and Pattern Recognition,B
+Human-Computer Interaction,Sound,Graphics,A
+Human-Computer Interaction,Sound,Information Retrieval,A
+Human-Computer Interaction,Systems and Control,Computational Complexity,A
+Human-Computer Interaction,Systems and Control,Networking and Internet Architecture,A
+Information Retrieval,Computation and Language,Logic in Computer Science,A
+Information Retrieval,Computation and Language,Networking and Internet Architecture,A
+Information Retrieval,Computer Vision and Pattern Recognition,Symbolic Computation,A
+Information Retrieval,Cryptography and Security,Computer Science and Game Theory,B
+Information Retrieval,Cryptography and Security,Symbolic Computation,B
+Information Retrieval,Databases,Computation and Language,A
+Information Retrieval,Databases,Computer Science and Game Theory,A
+Information Retrieval,Databases,Logic in Computer Science,A
+Information Retrieval,Databases,Machine Learning,A
+Information Retrieval,Databases,Networking and Internet Architecture,A
+Information Retrieval,Databases,Operating Systems,A
+Information Retrieval,Digital Libraries,Computation and Language,B
+Information Retrieval,Digital Libraries,Cryptography and Security,A
+Information Retrieval,Discrete Mathematics,Operating Systems,B
+Information Retrieval,"Distributed, Parallel, and Cluster Computing",Computer Vision and Pattern Recognition,B
+Information Retrieval,Formal Languages and Automata Theory,Graphics,B
+Information Retrieval,Human-Computer Interaction,Computation and Language,A
+Information Retrieval,Human-Computer Interaction,Computer Science and Game Theory,A
+Information Retrieval,Information Theory,Numerical Analysis,A
+Information Retrieval,Machine Learning,Mathematical Software,A
+Information Retrieval,Multiagent Systems,Programming Languages,A
+Information Retrieval,Operating Systems,Mathematical Software,A
+Information Retrieval,Programming Languages,Computer Science and Game Theory,B
+Information Retrieval,Programming Languages,Computer Vision and Pattern Recognition,B
+Information Retrieval,Programming Languages,Cryptography and Security,B
+Information Retrieval,Robotics,Sound,B
+Information Retrieval,Software Engineering,Computer Science and Game Theory,B
+Information Retrieval,Software Engineering,Computer Vision and Pattern Recognition,B
+Information Retrieval,Sound,Computational Geometry,A
+Information Theory,Computation and Language,Mathematical Software,B
+Information Theory,Computation and Language,Sound,B
+Information Theory,Computational Geometry,Cryptography and Security,A
+Information Theory,Computational Geometry,Multimedia,B
+Information Theory,Computational Geometry,Symbolic Computation,B
+Information Theory,Databases,Computation and Language,A
+Information Theory,Databases,Systems and Control,B
+Information Theory,Digital Libraries,Computer Vision and Pattern Recognition,A
+Information Theory,Digital Libraries,Mathematical Software,B
+Information Theory,Discrete Mathematics,Systems and Control,A
+Information Theory,"Distributed, Parallel, and Cluster Computing",Human-Computer Interaction,B
+Information Theory,Formal Languages and Automata Theory,Multimedia,A
+Information Theory,Graphics,Computer Science and Game Theory,B
+Information Theory,Hardware Architecture,Computational Complexity,A
+Information Theory,Hardware Architecture,Computational Geometry,A
+Information Theory,Hardware Architecture,Sound,B
+Information Theory,Human-Computer Interaction,Logic in Computer Science,B
+Information Theory,Human-Computer Interaction,Mathematical Software,B
+Information Theory,Machine Learning,Mathematical Software,B
+Information Theory,Multiagent Systems,Robotics,A
+Information Theory,Multimedia,Symbolic Computation,B
+Information Theory,Operating Systems,Computer Vision and Pattern Recognition,A
+Information Theory,Programming Languages,Artificial Intelligence,A
+Information Theory,Programming Languages,Computational Geometry,B
+Information Theory,Programming Languages,Robotics,A
+Information Theory,Programming Languages,Software Engineering,A
+Information Theory,Robotics,Logic in Computer Science,B
+Information Theory,Software Engineering,Artificial Intelligence,A
+Information Theory,Sound,Computer Vision and Pattern Recognition,A
+Information Theory,Systems and Control,Artificial Intelligence,A
+Information Theory,Systems and Control,Mathematical Software,B
+Logic in Computer Science,Computation and Language,Numerical Analysis,A
+Logic in Computer Science,Computational Complexity,Information Retrieval,A
+Logic in Computer Science,Computer Science and Game Theory,Networking and Internet Architecture,A
+Logic in Computer Science,Cryptography and Security,Mathematical Software,B
+Logic in Computer Science,Databases,Artificial Intelligence,B
+Logic in Computer Science,Databases,Information Theory,B
+Logic in Computer Science,Databases,Mathematical Software,B
+Logic in Computer Science,Databases,Programming Languages,B
+Logic in Computer Science,Databases,Software Engineering,B
+Logic in Computer Science,Digital Libraries,Computation and Language,B
+Logic in Computer Science,Digital Libraries,Computer Science and Game Theory,B
+Logic in Computer Science,Digital Libraries,Operating Systems,B
+Logic in Computer Science,Digital Libraries,Symbolic Computation,B
+Logic in Computer Science,Discrete Mathematics,Computer Vision and Pattern Recognition,A
+Logic in Computer Science,Discrete Mathematics,Information Retrieval,A
+Logic in Computer Science,Graphics,Networking and Internet Architecture,B
+Logic in Computer Science,Hardware Architecture,Computational Complexity,B
+Logic in Computer Science,Hardware Architecture,Operating Systems,B
+Logic in Computer Science,Hardware Architecture,Robotics,B
+Logic in Computer Science,Hardware Architecture,Symbolic Computation,B
+Logic in Computer Science,Human-Computer Interaction,Artificial Intelligence,B
+Logic in Computer Science,Human-Computer Interaction,Computation and Language,B
+Logic in Computer Science,Human-Computer Interaction,Machine Learning,B
+Logic in Computer Science,Human-Computer Interaction,Robotics,B
+Logic in Computer Science,Machine Learning,Computer Vision and Pattern Recognition,A
+Logic in Computer Science,Mathematical Software,Information Retrieval,A
+Logic in Computer Science,Mathematical Software,Networking and Internet Architecture,A
+Logic in Computer Science,Multiagent Systems,Mathematical Software,B
+Logic in Computer Science,Multimedia,Graphics,A
+Logic in Computer Science,Operating Systems,Information Theory,A
+Logic in Computer Science,Programming Languages,Robotics,A
+Logic in Computer Science,Robotics,Multimedia,A
+Logic in Computer Science,Robotics,Numerical Analysis,B
+Logic in Computer Science,Software Engineering,Information Theory,B
+Logic in Computer Science,Software Engineering,Numerical Analysis,B
+Logic in Computer Science,Systems and Control,Information Retrieval,B
+Machine Learning,Computational Geometry,Cryptography and Security,A
+Machine Learning,Computational Geometry,Graphics,A
+Machine Learning,Computational Geometry,Mathematical Software,A
+Machine Learning,Computational Geometry,Multimedia,A
+Machine Learning,Computer Science and Game Theory,Information Retrieval,B
+Machine Learning,Computer Vision and Pattern Recognition,Computational Complexity,A
+Machine Learning,Databases,Cryptography and Security,B
+Machine Learning,Databases,Formal Languages and Automata Theory,B
+Machine Learning,Digital Libraries,Computation and Language,B
+Machine Learning,Digital Libraries,Multimedia,B
+Machine Learning,Discrete Mathematics,Artificial Intelligence,B
+Machine Learning,Discrete Mathematics,Numerical Analysis,0
+Machine Learning,Discrete Mathematics,Programming Languages,A
+Machine Learning,"Distributed, Parallel, and Cluster Computing",Artificial Intelligence,B
+Machine Learning,"Distributed, Parallel, and Cluster Computing",Mathematical Software,A
+Machine Learning,"Distributed, Parallel, and Cluster Computing",Multimedia,A
+Machine Learning,"Distributed, Parallel, and Cluster Computing",Symbolic Computation,B
+Machine Learning,Formal Languages and Automata Theory,Artificial Intelligence,B
+Machine Learning,Formal Languages and Automata Theory,Graphics,A
+Machine Learning,Graphics,Computer Vision and Pattern Recognition,B
+Machine Learning,Hardware Architecture,Numerical Analysis,B
+Machine Learning,Human-Computer Interaction,Computer Science and Game Theory,B
+Machine Learning,Human-Computer Interaction,Formal Languages and Automata Theory,B
+Machine Learning,Human-Computer Interaction,Logic in Computer Science,B
+Machine Learning,Information Theory,Artificial Intelligence,B
+Machine Learning,Information Theory,Computational Complexity,B
+Machine Learning,Multiagent Systems,Artificial Intelligence,B
+Machine Learning,Multiagent Systems,Human-Computer Interaction,A
+Machine Learning,Multiagent Systems,Information Retrieval,A
+Machine Learning,Multiagent Systems,Systems and Control,A
+Machine Learning,Operating Systems,Symbolic Computation,A
+Machine Learning,Programming Languages,Graphics,B
+Machine Learning,Robotics,Computation and Language,A
+Machine Learning,Robotics,Mathematical Software,A
+Machine Learning,Software Engineering,Computational Complexity,B
+Machine Learning,Software Engineering,Numerical Analysis,B
+Machine Learning,Sound,Artificial Intelligence,B
+Machine Learning,Sound,Computer Science and Game Theory,B
+Mathematical Software,Computational Geometry,Artificial Intelligence,A
+Mathematical Software,Computer Science and Game Theory,Artificial Intelligence,B
+Mathematical Software,Cryptography and Security,Artificial Intelligence,B
+Mathematical Software,Databases,Computational Geometry,B
+Mathematical Software,Databases,Computer Science and Game Theory,B
+Mathematical Software,Databases,Human-Computer Interaction,B
+Mathematical Software,Digital Libraries,Graphics,A
+Mathematical Software,Digital Libraries,Information Theory,A
+Mathematical Software,Digital Libraries,Machine Learning,A
+Mathematical Software,Digital Libraries,Multiagent Systems,A
+Mathematical Software,Discrete Mathematics,"Distributed, Parallel, and Cluster Computing",A
+Mathematical Software,Discrete Mathematics,Graphics,A
+Mathematical Software,Discrete Mathematics,Machine Learning,A
+Mathematical Software,Discrete Mathematics,Numerical Analysis,0
+Mathematical Software,"Distributed, Parallel, and Cluster Computing",Computation and Language,A
+Mathematical Software,"Distributed, Parallel, and Cluster Computing",Networking and Internet Architecture,A
+Mathematical Software,"Distributed, Parallel, and Cluster Computing",Software Engineering,0
+Mathematical Software,"Distributed, Parallel, and Cluster Computing",Symbolic Computation,A
+Mathematical Software,"Distributed, Parallel, and Cluster Computing",Systems and Control,A
+Mathematical Software,Formal Languages and Automata Theory,Graphics,A
+Mathematical Software,Graphics,Artificial Intelligence,B
+Mathematical Software,Hardware Architecture,Digital Libraries,B
+Mathematical Software,Hardware Architecture,Systems and Control,B
+Mathematical Software,Human-Computer Interaction,Numerical Analysis,B
+Mathematical Software,Information Theory,Systems and Control,B
+Mathematical Software,Logic in Computer Science,Systems and Control,B
+Mathematical Software,Machine Learning,Artificial Intelligence,0
+Mathematical Software,Machine Learning,Computer Science and Game Theory,0
+Mathematical Software,Multiagent Systems,Graphics,0
+Mathematical Software,Multiagent Systems,Information Retrieval,0
+Mathematical Software,Multiagent Systems,Information Theory,B
+Mathematical Software,Multiagent Systems,Logic in Computer Science,B
+Mathematical Software,Multiagent Systems,Systems and Control,B
+Mathematical Software,Operating Systems,Networking and Internet Architecture,A
+Mathematical Software,Programming Languages,"Distributed, Parallel, and Cluster Computing",0
+Mathematical Software,Programming Languages,Graphics,0
+Mathematical Software,Robotics,Machine Learning,0
+Mathematical Software,Software Engineering,Computational Complexity,B
+Mathematical Software,Software Engineering,Computational Geometry,B
+Mathematical Software,Software Engineering,Computer Vision and Pattern Recognition,A
+Mathematical Software,Sound,Computer Science and Game Theory,0
+Mathematical Software,Sound,Systems and Control,0
+Mathematical Software,Systems and Control,Computer Vision and Pattern Recognition,0
+Multiagent Systems,Computation and Language,Computer Vision and Pattern Recognition,0
+Multiagent Systems,Computation and Language,Formal Languages and Automata Theory,0
+Multiagent Systems,Cryptography and Security,Information Retrieval,B
+Multiagent Systems,Databases,Computational Complexity,B
+Multiagent Systems,Databases,Cryptography and Security,A
+Multiagent Systems,Databases,Systems and Control,A
+Multiagent Systems,Discrete Mathematics,Artificial Intelligence,B
+Multiagent Systems,"Distributed, Parallel, and Cluster Computing",Mathematical Software,0
+Multiagent Systems,"Distributed, Parallel, and Cluster Computing",Robotics,B
+Multiagent Systems,Formal Languages and Automata Theory,Multimedia,B
+Multiagent Systems,Hardware Architecture,Networking and Internet Architecture,B
+Multiagent Systems,Hardware Architecture,Programming Languages,0
+Multiagent Systems,Human-Computer Interaction,Information Theory,B
+Multiagent Systems,Information Theory,Computer Vision and Pattern Recognition,A
+Multiagent Systems,Information Theory,Logic in Computer Science,A
+Multiagent Systems,Machine Learning,Information Retrieval,A
+Multiagent Systems,Machine Learning,Sound,A
+Multiagent Systems,Multimedia,Computer Vision and Pattern Recognition,A
+Multiagent Systems,Operating Systems,Numerical Analysis,A
+Multiagent Systems,Programming Languages,Artificial Intelligence,B
+Multiagent Systems,Programming Languages,Machine Learning,B
+Multiagent Systems,Robotics,Computational Complexity,A
+Multiagent Systems,Robotics,Computer Science and Game Theory,A
+Multiagent Systems,Robotics,Mathematical Software,A
+Multiagent Systems,Sound,Graphics,0
+Multiagent Systems,Sound,Information Retrieval,B
+Multiagent Systems,Systems and Control,Mathematical Software,A
+Multimedia,Computational Complexity,Numerical Analysis,0
+Multimedia,Computational Geometry,Symbolic Computation,0
+Multimedia,Computational Geometry,Systems and Control,0
+Multimedia,Computer Science and Game Theory,Symbolic Computation,A
+Multimedia,Cryptography and Security,Computer Vision and Pattern Recognition,B
+Multimedia,Databases,Logic in Computer Science,A
+Multimedia,Databases,Robotics,A
+Multimedia,Databases,Software Engineering,A
+Multimedia,Digital Libraries,Computation and Language,B
+Multimedia,Digital Libraries,Human-Computer Interaction,B
+Multimedia,Digital Libraries,Numerical Analysis,A
+Multimedia,Discrete Mathematics,"Distributed, Parallel, and Cluster Computing",0
+Multimedia,Discrete Mathematics,Operating Systems,B
+Multimedia,"Distributed, Parallel, and Cluster Computing",Sound,B
+Multimedia,Formal Languages and Automata Theory,Computational Geometry,A
+Multimedia,Formal Languages and Automata Theory,Computer Vision and Pattern Recognition,A
+Multimedia,Hardware Architecture,Discrete Mathematics,0
+Multimedia,Hardware Architecture,Formal Languages and Automata Theory,B
+Multimedia,Hardware Architecture,Software Engineering,B
+Multimedia,Human-Computer Interaction,Computer Vision and Pattern Recognition,A
+Multimedia,Human-Computer Interaction,Networking and Internet Architecture,A
+Multimedia,Human-Computer Interaction,Software Engineering,A
+Multimedia,Human-Computer Interaction,Sound,A
+Multimedia,Information Theory,Computer Vision and Pattern Recognition,A
+Multimedia,Information Theory,Networking and Internet Architecture,A
+Multimedia,Machine Learning,Systems and Control,0
+Multimedia,Multiagent Systems,Graphics,A
+Multimedia,Operating Systems,Mathematical Software,A
+Multimedia,Operating Systems,Numerical Analysis,A
+Multimedia,Operating Systems,Symbolic Computation,A
+Multimedia,Programming Languages,Formal Languages and Automata Theory,0
+Multimedia,Programming Languages,Information Theory,B
+Multimedia,Sound,Graphics,0
+Networking and Internet Architecture,Computation and Language,Numerical Analysis,0
+Networking and Internet Architecture,Computational Complexity,Artificial Intelligence,B
+Networking and Internet Architecture,Computational Geometry,Computer Science and Game Theory,B
+Networking and Internet Architecture,Digital Libraries,Computer Vision and Pattern Recognition,0
+Networking and Internet Architecture,Discrete Mathematics,Software Engineering,0
+Networking and Internet Architecture,Discrete Mathematics,Systems and Control,B
+Networking and Internet Architecture,"Distributed, Parallel, and Cluster Computing",Robotics,A
+Networking and Internet Architecture,Graphics,Artificial Intelligence,B
+Networking and Internet Architecture,Graphics,Logic in Computer Science,B
+Networking and Internet Architecture,Hardware Architecture,Computational Geometry,A
+Networking and Internet Architecture,Human-Computer Interaction,Cryptography and Security,B
+Networking and Internet Architecture,Human-Computer Interaction,Formal Languages and Automata Theory,0
+Networking and Internet Architecture,Logic in Computer Science,Computer Science and Game Theory,B
+Networking and Internet Architecture,Multiagent Systems,Computational Complexity,0
+Networking and Internet Architecture,Multiagent Systems,Logic in Computer Science,0
+Networking and Internet Architecture,Multimedia,Artificial Intelligence,A
+Networking and Internet Architecture,Multimedia,Cryptography and Security,A
+Networking and Internet Architecture,Operating Systems,Computation and Language,A
+Networking and Internet Architecture,Robotics,Numerical Analysis,A
+Networking and Internet Architecture,Software Engineering,Computational Geometry,A
+Networking and Internet Architecture,Sound,Systems and Control,B
+Networking and Internet Architecture,Systems and Control,Symbolic Computation,A
+Numerical Analysis,Computation and Language,Logic in Computer Science,0
+Numerical Analysis,Computation and Language,Multimedia,0
+Numerical Analysis,Computer Vision and Pattern Recognition,Information Retrieval,B
+Numerical Analysis,Databases,Computational Complexity,B
+Numerical Analysis,Digital Libraries,Information Retrieval,B
+Numerical Analysis,Digital Libraries,Symbolic Computation,B
+Numerical Analysis,Digital Libraries,Systems and Control,0
+Numerical Analysis,Discrete Mathematics,Operating Systems,A
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Computer Science and Game Theory,B
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Cryptography and Security,B
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Human-Computer Interaction,0
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Information Theory,B
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Networking and Internet Architecture,0
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Symbolic Computation,0
+Numerical Analysis,"Distributed, Parallel, and Cluster Computing",Systems and Control,0
+Numerical Analysis,Graphics,Networking and Internet Architecture,0
+Numerical Analysis,Hardware Architecture,Computational Geometry,0
+Numerical Analysis,Hardware Architecture,Machine Learning,B
+Numerical Analysis,Hardware Architecture,Programming Languages,0
+Numerical Analysis,Human-Computer Interaction,Computer Science and Game Theory,B
+Numerical Analysis,Human-Computer Interaction,Robotics,0
+Numerical Analysis,Logic in Computer Science,Systems and Control,0
+Numerical Analysis,Machine Learning,Logic in Computer Science,0
+Numerical Analysis,Mathematical Software,Networking and Internet Architecture,A
+Numerical Analysis,Mathematical Software,Symbolic Computation,A
+Numerical Analysis,Multiagent Systems,Computational Complexity,0
+Numerical Analysis,Multiagent Systems,Computer Vision and Pattern Recognition,0
+Numerical Analysis,Multiagent Systems,Discrete Mathematics,B
+Numerical Analysis,Multiagent Systems,"Distributed, Parallel, and Cluster Computing",0
+Numerical Analysis,Operating Systems,Computer Vision and Pattern Recognition,0
+Numerical Analysis,Operating Systems,Logic in Computer Science,0
+Numerical Analysis,Operating Systems,Mathematical Software,0
+Numerical Analysis,Operating Systems,Software Engineering,0
+Numerical Analysis,Programming Languages,Software Engineering,0
+Numerical Analysis,Robotics,Cryptography and Security,0
+Numerical Analysis,Software Engineering,Mathematical Software,0
+Numerical Analysis,Software Engineering,Multimedia,0
+Numerical Analysis,Sound,Systems and Control,0
+Numerical Analysis,Systems and Control,Information Retrieval,0
+Operating Systems,Computational Complexity,Artificial Intelligence,0
+Operating Systems,Computational Complexity,Numerical Analysis,B
+Operating Systems,Databases,Symbolic Computation,0
+Operating Systems,Digital Libraries,Systems and Control,0
+Operating Systems,Discrete Mathematics,Multimedia,A
+Operating Systems,"Distributed, Parallel, and Cluster Computing",Logic in Computer Science,0
+Operating Systems,"Distributed, Parallel, and Cluster Computing",Mathematical Software,0
+Operating Systems,Formal Languages and Automata Theory,Computer Vision and Pattern Recognition,0
+Operating Systems,Formal Languages and Automata Theory,Software Engineering,B
+Operating Systems,Graphics,Logic in Computer Science,B
+Operating Systems,Hardware Architecture,Robotics,A
+Operating Systems,Human-Computer Interaction,Computer Vision and Pattern Recognition,A
+Operating Systems,Human-Computer Interaction,Cryptography and Security,A
+Operating Systems,Human-Computer Interaction,Symbolic Computation,A
+Operating Systems,Information Retrieval,Numerical Analysis,B
+Operating Systems,Machine Learning,Systems and Control,B
+Operating Systems,Mathematical Software,Networking and Internet Architecture,B
+Operating Systems,Mathematical Software,Numerical Analysis,0
+Operating Systems,Mathematical Software,Symbolic Computation,0
+Operating Systems,Multiagent Systems,Cryptography and Security,A
+Operating Systems,Multiagent Systems,Programming Languages,A
+Operating Systems,Multiagent Systems,Sound,A
+Operating Systems,Multiagent Systems,Systems and Control,A
+Operating Systems,Programming Languages,Computation and Language,A
+Operating Systems,Robotics,Information Retrieval,A
+Operating Systems,Sound,Formal Languages and Automata Theory,0
+Operating Systems,Sound,Graphics,0
+Operating Systems,Sound,Mathematical Software,0
+Operating Systems,Sound,Symbolic Computation,0
+Programming Languages,Computational Geometry,Mathematical Software,B
+Programming Languages,Databases,Computer Science and Game Theory,0
+Programming Languages,Databases,Graphics,0
+Programming Languages,Databases,Machine Learning,0
+Programming Languages,Databases,Numerical Analysis,0
+Programming Languages,Digital Libraries,Computational Complexity,0
+Programming Languages,Digital Libraries,Computational Geometry,0
+Programming Languages,Digital Libraries,Machine Learning,0
+Programming Languages,Digital Libraries,Systems and Control,0
+Programming Languages,Discrete Mathematics,Information Theory,B
+Programming Languages,Discrete Mathematics,Operating Systems,0
+Programming Languages,Formal Languages and Automata Theory,Information Theory,B
+Programming Languages,Graphics,Artificial Intelligence,0
+Programming Languages,Hardware Architecture,Multimedia,0
+Programming Languages,Hardware Architecture,Robotics,0
+Programming Languages,Human-Computer Interaction,Computational Geometry,0
+Programming Languages,Human-Computer Interaction,Computer Science and Game Theory,0
+Programming Languages,Human-Computer Interaction,Computer Vision and Pattern Recognition,0
+Programming Languages,Human-Computer Interaction,Mathematical Software,0
+Programming Languages,Information Retrieval,Networking and Internet Architecture,0
+Programming Languages,Information Theory,Systems and Control,A
+Programming Languages,Logic in Computer Science,Computer Vision and Pattern Recognition,A
+Programming Languages,Mathematical Software,Computational Complexity,0
+Programming Languages,Multiagent Systems,Mathematical Software,0
+Programming Languages,Robotics,Multimedia,0
+Programming Languages,Software Engineering,Computational Complexity,0
+Robotics,Computation and Language,Formal Languages and Automata Theory,B
+Robotics,Computation and Language,Graphics,A
+Robotics,Computational Complexity,Information Retrieval,A
+Robotics,Computational Geometry,Numerical Analysis,A
+Robotics,Computer Vision and Pattern Recognition,Numerical Analysis,A
+Robotics,Computer Vision and Pattern Recognition,Symbolic Computation,A
+Robotics,Databases,Information Retrieval,B
+Robotics,Databases,Symbolic Computation,B
+Robotics,Digital Libraries,Computational Complexity,B
+Robotics,Digital Libraries,Multimedia,B
+Robotics,"Distributed, Parallel, and Cluster Computing",Computation and Language,B
+Robotics,"Distributed, Parallel, and Cluster Computing",Computational Complexity,B
+Robotics,Human-Computer Interaction,Machine Learning,A
+Robotics,Human-Computer Interaction,Numerical Analysis,A
+Robotics,Machine Learning,Information Retrieval,A
+Robotics,Machine Learning,Mathematical Software,A
+Robotics,Mathematical Software,Computer Vision and Pattern Recognition,B
+Robotics,Multiagent Systems,Formal Languages and Automata Theory,B
+Robotics,Multiagent Systems,Graphics,A
+Robotics,Multiagent Systems,Human-Computer Interaction,B
+Robotics,Multiagent Systems,Multimedia,B
+Robotics,Operating Systems,Computational Geometry,A
+Robotics,Programming Languages,Computational Complexity,B
+Robotics,Programming Languages,"Distributed, Parallel, and Cluster Computing",B
+Robotics,Programming Languages,Machine Learning,B
+Robotics,Programming Languages,Operating Systems,B
+Robotics,Software Engineering,Information Theory,B
+Robotics,Software Engineering,Systems and Control,B
+Software Engineering,Computation and Language,Systems and Control,B
+Software Engineering,Computer Vision and Pattern Recognition,Symbolic Computation,0
+Software Engineering,Cryptography and Security,Graphics,0
+Software Engineering,Cryptography and Security,Systems and Control,0
+Software Engineering,Digital Libraries,Artificial Intelligence,B
+Software Engineering,Digital Libraries,"Distributed, Parallel, and Cluster Computing",B
+Software Engineering,Discrete Mathematics,Cryptography and Security,B
+Software Engineering,Discrete Mathematics,Networking and Internet Architecture,B
+Software Engineering,Discrete Mathematics,Numerical Analysis,0
+Software Engineering,"Distributed, Parallel, and Cluster Computing",Cryptography and Security,0
+Software Engineering,"Distributed, Parallel, and Cluster Computing",Robotics,0
+Software Engineering,Formal Languages and Automata Theory,Cryptography and Security,0
+Software Engineering,Formal Languages and Automata Theory,Mathematical Software,0
+Software Engineering,Hardware Architecture,Computation and Language,0
+Software Engineering,Hardware Architecture,Computational Complexity,0
+Software Engineering,Hardware Architecture,Operating Systems,0
+Software Engineering,Human-Computer Interaction,Numerical Analysis,A
+Software Engineering,Information Retrieval,Artificial Intelligence,A
+Software Engineering,Information Theory,Artificial Intelligence,A
+Software Engineering,Information Theory,Networking and Internet Architecture,A
+Software Engineering,Machine Learning,Cryptography and Security,0
+Software Engineering,Multiagent Systems,Machine Learning,0
+Software Engineering,Multiagent Systems,Systems and Control,0
+Software Engineering,Multimedia,Computational Complexity,B
+Software Engineering,Operating Systems,Computation and Language,A
+Software Engineering,Programming Languages,Networking and Internet Architecture,A
+Software Engineering,Robotics,Computer Vision and Pattern Recognition,0
+Software Engineering,Sound,Computational Complexity,B
+Sound,Computation and Language,Information Theory,B
+Sound,Computation and Language,Mathematical Software,0
+Sound,Databases,Robotics,B
+Sound,Digital Libraries,Computational Geometry,A
+Sound,Digital Libraries,Computer Science and Game Theory,A
+Sound,"Distributed, Parallel, and Cluster Computing",Computational Geometry,A
+Sound,"Distributed, Parallel, and Cluster Computing",Operating Systems,B
+Sound,Formal Languages and Automata Theory,Systems and Control,B
+Sound,Graphics,Systems and Control,B
+Sound,Hardware Architecture,Machine Learning,B
+Sound,Human-Computer Interaction,Computational Complexity,A
+Sound,Logic in Computer Science,Systems and Control,B
+Sound,Machine Learning,Computational Geometry,A
+Sound,Machine Learning,Networking and Internet Architecture,A
+Sound,Multiagent Systems,Systems and Control,B
+Sound,Multimedia,Numerical Analysis,A
+Sound,Operating Systems,Graphics,A
+Sound,Operating Systems,Logic in Computer Science,A
+Sound,Programming Languages,Operating Systems,B
+Sound,Software Engineering,Symbolic Computation,A
+Sound,Systems and Control,Artificial Intelligence,A
+Symbolic Computation,Computation and Language,Computational Geometry,A
+Symbolic Computation,Computation and Language,Cryptography and Security,A
+Symbolic Computation,Cryptography and Security,Systems and Control,A
+Symbolic Computation,Databases,Networking and Internet Architecture,B
+Symbolic Computation,Databases,Sound,0
+Symbolic Computation,Digital Libraries,Robotics,B
+Symbolic Computation,Discrete Mathematics,Computation and Language,B
+Symbolic Computation,Discrete Mathematics,Graphics,0
+Symbolic Computation,Discrete Mathematics,Logic in Computer Science,B
+Symbolic Computation,Discrete Mathematics,Numerical Analysis,B
+Symbolic Computation,Discrete Mathematics,Operating Systems,0
+Symbolic Computation,Discrete Mathematics,Robotics,B
+Symbolic Computation,Hardware Architecture,Computation and Language,B
+Symbolic Computation,Hardware Architecture,Digital Libraries,0
+Symbolic Computation,Hardware Architecture,Mathematical Software,0
+Symbolic Computation,Hardware Architecture,Multimedia,B
+Symbolic Computation,Hardware Architecture,Systems and Control,0
+Symbolic Computation,Information Theory,Numerical Analysis,A
+Symbolic Computation,Machine Learning,Multimedia,A
+Symbolic Computation,Multiagent Systems,Computation and Language,B
+Symbolic Computation,Multiagent Systems,Cryptography and Security,0
+Symbolic Computation,Multiagent Systems,Multimedia,B
+Symbolic Computation,Multiagent Systems,Operating Systems,0
+Symbolic Computation,Multiagent Systems,Programming Languages,A
+Symbolic Computation,Numerical Analysis,Networking and Internet Architecture,A
+Symbolic Computation,Operating Systems,Logic in Computer Science,B
+Symbolic Computation,Sound,Cryptography and Security,B
+Symbolic Computation,Sound,Numerical Analysis,B
+Symbolic Computation,Systems and Control,Computational Complexity,B
+Systems and Control,Computation and Language,Mathematical Software,0
+Systems and Control,Computational Geometry,Computer Vision and Pattern Recognition,0
+Systems and Control,Computational Geometry,Cryptography and Security,B
+Systems and Control,Computer Vision and Pattern Recognition,Information Retrieval,0
+Systems and Control,Cryptography and Security,Logic in Computer Science,A
+Systems and Control,Cryptography and Security,Numerical Analysis,A
+Systems and Control,Digital Libraries,Computational Geometry,0
+Systems and Control,Digital Libraries,Networking and Internet Architecture,B
+Systems and Control,Discrete Mathematics,Artificial Intelligence,B
+Systems and Control,Discrete Mathematics,Human-Computer Interaction,B
+Systems and Control,Discrete Mathematics,Machine Learning,B
+Systems and Control,Discrete Mathematics,Mathematical Software,B
+Systems and Control,Discrete Mathematics,Operating Systems,B
+Systems and Control,"Distributed, Parallel, and Cluster Computing",Computer Science and Game Theory,A
+Systems and Control,"Distributed, Parallel, and Cluster Computing",Mathematical Software,A
+Systems and Control,Formal Languages and Automata Theory,Logic in Computer Science,A
+Systems and Control,Hardware Architecture,Mathematical Software,A
+Systems and Control,Human-Computer Interaction,Computational Complexity,B
+Systems and Control,Human-Computer Interaction,Cryptography and Security,B
+Systems and Control,Human-Computer Interaction,Formal Languages and Automata Theory,B
+Systems and Control,Human-Computer Interaction,Graphics,0
+Systems and Control,Human-Computer Interaction,Machine Learning,B
+Systems and Control,Information Retrieval,Artificial Intelligence,B
+Systems and Control,Information Retrieval,Networking and Internet Architecture,B
+Systems and Control,Machine Learning,Computational Geometry,A
+Systems and Control,Mathematical Software,Symbolic Computation,0
+Systems and Control,Multiagent Systems,Information Retrieval,A
+Systems and Control,Multiagent Systems,Robotics,A
+Systems and Control,Multimedia,Cryptography and Security,B
+Systems and Control,Programming Languages,Computational Complexity,B
+Systems and Control,Programming Languages,Information Retrieval,0
+Systems and Control,Programming Languages,Information Theory,B
+Systems and Control,Programming Languages,Machine Learning,B
+Systems and Control,Programming Languages,Numerical Analysis,B
+Systems and Control,Sound,Computer Science and Game Theory,B
+Systems and Control,Sound,Networking and Internet Architecture,B
+Artificial Intelligence,Robotics,Operating Systems,A
+Computation and Language,Multiagent Systems,Mathematical Software,B
+Computation and Language,Software Engineering,Computer Vision and Pattern Recognition,0
+Computational Complexity,Multimedia,Information Retrieval,B
+Databases,Software Engineering,Artificial Intelligence,0
+Databases,Software Engineering,Logic in Computer Science,A
+Digital Libraries,Computation and Language,Multimedia,B
+Discrete Mathematics,Digital Libraries,Multiagent Systems,0
+Discrete Mathematics,Formal Languages and Automata Theory,Symbolic Computation,0
+Graphics,Robotics,Systems and Control,A
+Computational Complexity,Discrete Mathematics,Artificial Intelligence,B
+Computational Complexity,Discrete Mathematics,Computational Geometry,B
+Computational Complexity,"Distributed, Parallel, and Cluster Computing",Software Engineering,0
+Computer Vision and Pattern Recognition,Robotics,Information Theory,A
+Cryptography and Security,Computational Geometry,Graphics,0
+Databases,Programming Languages,Symbolic Computation,0
+"Distributed, Parallel, and Cluster Computing",Computational Geometry,Multimedia,B
+"Distributed, Parallel, and Cluster Computing",Discrete Mathematics,Human-Computer Interaction,B
+"Distributed, Parallel, and Cluster Computing",Formal Languages and Automata Theory,Mathematical Software,0
+Human-Computer Interaction,Digital Libraries,Cryptography and Security,0
