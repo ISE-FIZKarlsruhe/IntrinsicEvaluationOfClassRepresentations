@@ -6,6 +6,7 @@ import pandas as pd
 from transformers import BertTokenizer, BertModel
 from gensim.models import KeyedVectors
 import gensim
+from wikipedia2vec import Wikipedia2Vec
 from keras.preprocessing.text import Tokenizer
 import pickle
 
@@ -13,6 +14,15 @@ import pickle
 dataDir = "data/"
 PRE_TRAINED_MODEL = 'bert-base-cased'
 
+def getWikipedia2Vec(data, model):
+    keys = data[0]
+    uris = data[1]
+
+    # TODO use a proper regex instead
+    entities = [" ".join(x[28:].split("_")) for x in uris]
+    embeddings = [model.get_entity_vector(x) for x in entities] 
+    
+    return dict(zip(keys, embeddings))
 
 def getWord2Vecembeddings(data, model):
     
@@ -53,6 +63,28 @@ def getKGvec2go(data, model): #uris):
     
     return dict(zip(keys, embeddings))
 
+def loadKeyVectorFormat(inputFile):
+    model = {}
+    with open(inputFile,'r') as handle:
+        for line in handle:
+            splitLines = line.split()
+            key = splitLines[0]
+            embedding = np.array([float(value) for value in splitLines[1:]])
+            model[key] = embedding
+    return model 
+
+
+def getKGembedding(data, model):
+    keys = data[0]
+    uris = data[1]
+
+    modelShape = np.shape(next(iter(model.values())))
+    embeddings = [model[x] if x in model else np.zeros(modelShape) for x in uris]
+    missing = [x for x in uris if x not in model]
+    if len(missing) > 0:
+        print("missing entities: {}".format(" ".join(missing)))
+
+    return dict(zip(keys, embeddings))
 
 
 def main():
@@ -75,26 +107,49 @@ def main():
 #    word2VecWikiDict = getWord2Vecembeddings([classesDf.index, classesDf["DBpedia abstract"]], word2VecModel)
 #    with open(dataDir + 'embeddings/word2Vec_wikipedia.pickle', 'wb') as handle:
 #        pickle.dump(word2VecWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-    # load BERT
-    bertTokenizer = BertTokenizer.from_pretrained("bert-base-cased")
-    bertModel = BertModel.from_pretrained("bert-base-cased")
-
-    # Name, BERT
-    bertNameDict = getBERTembeddings([classesDf.index, classesDf["name"]], [bertTokenizer, bertModel])
-    with open(dataDir + 'embeddings/bert_name.pickle', 'wb') as handle:
-        pickle.dump(bertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
-   
-    # Wiki Abstract, BERT
+#
+#    # load BERT
+#    bertTokenizer = BertTokenizer.from_pretrained("bert-base-cased")
+#    bertModel = BertModel.from_pretrained("bert-base-cased")
+#
+#    # Name, BERT
+#    bertNameDict = getBERTembeddings([classesDf.index, classesDf["name"]], [bertTokenizer, bertModel])
+#    with open(dataDir + 'embeddings/bert_name.pickle', 'wb') as handle:
+#        pickle.dump(bertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#   
+#    # Wiki Abstract, BERT
 #    bertWikiDict = getBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], [bertTokenizer, bertModel])
 #    with open(dataDir + 'embeddings/bert_wikipedia.pickle', 'wb') as handle:
 #        pickle.dump(bertWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
+    # load Wikipedia2Vec embeddings 
+    wikipedia2VecModel = Wikipedia2Vec.load(dataDir + "pretrained/enwiki_20180420_300d.pkl") 
+   
+    # Wikipedia Entity, Wikipedia2Vec
+    wikipedia2VecDict = getWikipedia2Vec([classesDf.index,classesDf["DBpedia"]], wikipedia2VecModel) 
+    with open(dataDir + 'embeddings/wikipedia2Vec.pickle', 'wb') as handle:
+        pickle.dump(wikipedia2VecDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
 #    # load KG Vec 2go 
 #    kgVec2GoModel = KeyedVectors.load(dataDir + "pretrained/sg200_dbpedia_500_8_df_vectors.kv")
 #    kgVec2GoDbpediaDict = getKGvec2go([classesDf.index,classesDf["DBpedia"]], kgVec2GoModel) 
 #    with open(dataDir + 'embeddings/kgVec2Go_dbpedia.pickle', 'wb') as handle:
 #        pickle.dump(kgVec2GoDbpediaDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
+#    # load TransR embeddings 
+#    transRModel =  loadKeyVectorFormat(dataDir + "pretrained/vectors_dbpedia_TransR.txt")
+#    # TransR DBpedia,
+#    transR_dbpediaDict = getKGembedding([classesDf.index,classesDf["DBpedia"]], transRModel) 
+#    with open(dataDir + 'embeddings/transR_dbpedia.pickle', 'wb') as handle:
+#        pickle.dump(transR_dbpediaDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # load TransE embeddings 
+    transEModel =  loadKeyVectorFormat(dataDir + "pretrained/vectors_dbpedia_TransE-L2.txt")
+    # TransE DBpedia,
+    transE_dbpediaDict = getKGembedding([classesDf.index,classesDf["DBpedia"]], transEModel) 
+    with open(dataDir + 'embeddings/transE_dbpedia.pickle', 'wb') as handle:
+        pickle.dump(transE_dbpediaDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
 
 if __name__ == "__main__":
     main()

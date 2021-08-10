@@ -15,10 +15,11 @@ dataDir = "data/"
 def log(text):
     print(text)
 
-def predict(triples, embeddings, t=0.2):
+def predict(triples, embeddings, k=0.1):
     similarity = cosine_similarity(embeddings)
-    # TODO use abs
-    return ["A" if similarity[x[0],x[1]] > (similarity[x[0],x[2]] + t)  else "B" if similarity[x[0],x[1]] < (similarity[x[0],x[2]] - t) else 0 for x in triples ]
+    t = k * np.std(similarity)
+    minValue = np.percentile(similarity, 30)
+    return ["A" if similarity[x[0],x[1]] > (similarity[x[0],x[2]] + t) and similarity[x[0],x[1]] >minValue  else "B" if similarity[x[0],x[1]] < (similarity[x[0],x[2]] - t) and similarity[x[0],x[2]] > minValue else 0 for x in triples ]
 
 def predictBinary( triples, embeddings):
     similarity = cosine_similarity(embeddings)
@@ -64,7 +65,6 @@ def evaluateEmbedding(goldStandardDf, embeddingFile, writeSimilarityMatrix=False
 
 def main():
     
-    pdb.set_trace()
     # load gold standard
     #goldStandardDf = pd.read_csv(dataDir + "goldStandard.csv", sep=";")
     goldStandardDf = pd.read_csv(dataDir + "binaryGoldStandard.csv", sep=';')
