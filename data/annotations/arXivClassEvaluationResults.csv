@@ -1799,9 +1799,9 @@ Machine Learning;Human-Computer Interaction;Sound;['0'];;;['0'];['A'];;['0'];;['
 Machine Learning;Information Retrieval;Artificial Intelligence;['A'];;;;;['B'];;['B'];['A'];['B'];
 Machine Learning;Information Retrieval;Networking and Internet Architecture;['B'];;;['A'];['A'];;['0'];;['B'];;
 Machine Learning;Information Retrieval;Symbolic Computation;['B'];;;;;['B'];;['B'];['B'];['A'];
-Machine Learning;Information Theory;Artificial Intelligence;['B'];['B'];['B'];;;;;;[nan];;['B']
-Machine Learning;Information Theory;Computational Complexity;['B'];['B'];['B'];;;;;;[nan];;['B']
-Machine Learning;Information Theory;Computer Science and Game Theory;['A'];;;;;['B'];;['B'];[nan];['B'];
+Machine Learning;Information Theory;Artificial Intelligence;['B'];['B'];['B'];;;;;;['B'];;['B']
+Machine Learning;Information Theory;Computational Complexity;['B'];['B'];['B'];;;;;;['B'];;['B']
+Machine Learning;Information Theory;Computer Science and Game Theory;['A'];;;;;['B'];;['B'];['A'];['B'];
 Machine Learning;Logic in Computer Science;Networking and Internet Architecture;['A'];;;['A'];['B'];;['A'];;['A'];;
 Machine Learning;Logic in Computer Science;Systems and Control;['A'];;;['A'];['B'];;['A'];;['A'];;
 Machine Learning;Mathematical Software;Computational Complexity;['A'];;;['B'];['0'];;['0'];;['A'];;

@@ -11,3 +11,4 @@ scikit-learn=0.24.2=py39ha9443f7_0
 tensorflow=2.4.1=gpu_py39h8236f22_0
 tensorflow-gpu=2.4.1=h30adc30_0
 transformers=4.9.2=pyhd8ed1ab_0
+wikipedia2vec==1.0.5

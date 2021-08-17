@@ -624,8 +624,8 @@ Machine Learning,Hardware Architecture,Numerical Analysis,0
 Machine Learning,Human-Computer Interaction,Computer Science and Game Theory,B
 Machine Learning,Human-Computer Interaction,Formal Languages and Automata Theory,B
 Machine Learning,Human-Computer Interaction,Logic in Computer Science,A
-Machine Learning,Information Theory,Artificial Intelligence,
-Machine Learning,Information Theory,Computational Complexity,
+Machine Learning,Information Theory,Artificial Intelligence,B
+Machine Learning,Information Theory,Computational Complexity,B
 Machine Learning,Multiagent Systems,Artificial Intelligence,A
 Machine Learning,Multiagent Systems,Human-Computer Interaction,B
 Machine Learning,Multiagent Systems,Information Retrieval,B
@@ -2624,7 +2624,7 @@ Machine Learning,Hardware Architecture,Formal Languages and Automata Theory,B
 Machine Learning,Hardware Architecture,Robotics,A
 Machine Learning,Information Retrieval,Artificial Intelligence,A
 Machine Learning,Information Retrieval,Symbolic Computation,B
-Machine Learning,Information Theory,Computer Science and Game Theory,
+Machine Learning,Information Theory,Computer Science and Game Theory,A
 Machine Learning,Mathematical Software,Numerical Analysis,0
 Machine Learning,Multiagent Systems,Operating Systems,A
 Machine Learning,Multimedia,Cryptography and Security,A

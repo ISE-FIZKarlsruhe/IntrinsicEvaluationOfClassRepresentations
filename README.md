@@ -1,4 +1,4 @@
-# Intrinsic Evaluation of Class Representations for Zero-Shot Text Classification
+# Understanding Class Representations: An Intrinsic Evaluation of Zero-Shot Text Classification
 
 ## Description
 
@@ -12,8 +12,8 @@ This repository contains all the all scripts and datasets used in the work descr
 Bibtex:
 
 ```
-@inproceedings{Hoppe2021Intrinsic,
-  title={Intrinsic Evaluation of Class Representations for Zero-Shot Text Classification},
+@inproceedings{Hoppe2021Understanding,
+  title={Understanding Class Representations: An Intrinsic Evaluation of Zero-Shot Text Classification},
   author={Hoppe, Fabian and Dess{\`{\i}} , Danilo and Sack, Harald },
   booktitle={},
   year={2021},
