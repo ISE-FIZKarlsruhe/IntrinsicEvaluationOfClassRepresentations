@@ -45,10 +45,10 @@ def evaluateHuman(goldStandardDf, humanFile, binary=False):
     predictions = [humanDict[tuple(x)] for i,x in goldStandardDf[["Anchor", "A", "B"]].iterrows()] 
     if binary:
         predictions = [1 if x=='A' else 0 for x in predictions]
-
-    # evaluation
-    #evaluation = precision_recall_fscore_support(y, predictions,average="binary")  
-    evaluation = precision_recall_fscore_support(y, predictions, average="micro")
+        # evaluation
+        evaluation = precision_recall_fscore_support(y, predictions,average="binary")  
+    else:
+        evaluation = precision_recall_fscore_support(y, predictions, average="micro")
 
     return evaluation, predictions
 
@@ -66,8 +66,8 @@ def evaluateEmbedding(goldStandardDf, embeddingFile, writeSimilarityMatrix=False
     x = [[idDict[xx] for xx in x] for i,x in goldStandardDf[["Anchor", "A", "B"]].iterrows()]
     y = goldStandardDf["Label"]
 
-    predictions = predict(x, embeddingList)
-    #predictions = predictBinary(x, embeddingList)
+    #predictions = predict(x, embeddingList)
+    predictions = predictBinary(x, embeddingList)
     similarity = listSimilarity(x, embeddingList)
 
     # write similarity matrix
@@ -80,8 +80,8 @@ def evaluateEmbedding(goldStandardDf, embeddingFile, writeSimilarityMatrix=False
 
 
     # evaluation
-    #evaluation = precision_recall_fscore_support(y, predictions,average="binary")
-    evaluation = precision_recall_fscore_support(y, predictions, average="micro")
+    evaluation = precision_recall_fscore_support(y, predictions,average="binary")
+    #evaluation = precision_recall_fscore_support(y, predictions, average="micro")
     #evaluation = precision_recall_fscore_support(y, predictions, average="macro")
     #log(sklearn.metrics.classification_report(y, predictions))
     return evaluation, predictions, similarity
@@ -89,8 +89,8 @@ def evaluateEmbedding(goldStandardDf, embeddingFile, writeSimilarityMatrix=False
 def main():
     
     # load gold standard
-    goldStandardDf = pd.read_csv(dataDir + "goldStandard.csv", sep=";")
-    #goldStandardDf = pd.read_csv(dataDir + "binaryGoldStandard.csv", sep=';')
+    #goldStandardDf = pd.read_csv(dataDir + "goldStandard.csv", sep=";")
+    goldStandardDf = pd.read_csv(dataDir + "binaryGoldStandard.csv", sep=';')
 
     models = glob.glob(dataDir + "embeddings/*.pickle")
     results = []
@@ -105,7 +105,7 @@ def main():
     for human in [dataDir + "annotations/arXivClassEvaluationResults - Annotator00.csv", dataDir + "annotations/arXivClassEvaluationResults - Annotator01.csv", dataDir + "annotations/merged1.csv",dataDir + "annotations/merged2.csv",dataDir + "annotations/merged3.csv",]:
         log(human)
         #result, predictions = evaluateHuman(goldStandardDf, human, binary=True)
-        result, predictions = evaluateHuman(goldStandardDf, human, binary=False)
+        result, predictions = evaluateHuman(goldStandardDf, human, binary=True)
         goldStandardDf[human + "_prediction"] = predictions
         log(result)
         results.append([human] + list(result))
