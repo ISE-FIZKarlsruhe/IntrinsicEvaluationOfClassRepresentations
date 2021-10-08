@@ -104,8 +104,8 @@ def main():
 
     for human in [dataDir + "annotations/arXivClassEvaluationResults - Annotator00.csv", dataDir + "annotations/arXivClassEvaluationResults - Annotator01.csv", dataDir + "annotations/merged1.csv",dataDir + "annotations/merged2.csv",dataDir + "annotations/merged3.csv",]:
         log(human)
-        #result, predictions = evaluateHuman(goldStandardDf, human, binary=True)
         result, predictions = evaluateHuman(goldStandardDf, human, binary=True)
+        #result, predictions = evaluateHuman(goldStandardDf, human, binary=False)
         goldStandardDf[human + "_prediction"] = predictions
         log(result)
         results.append([human] + list(result))

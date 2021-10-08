@@ -10,6 +10,8 @@ from wikipedia2vec import Wikipedia2Vec
 from keras.preprocessing.text import Tokenizer
 import pickle
 
+from sentence_transformers import SentenceTransformer, util
+
 
 dataDir = "data/"
 PRE_TRAINED_MODEL = 'bert-base-cased'
@@ -55,6 +57,12 @@ def getBERTembeddings(data, models):
 
     return dict(zip(keys, embeddings))
 
+def getAltBERTembeddings(data, model):
+    keys = data[0]
+    texts = data[1]
+    embeddings =  model.encode(texts, convert_to_tensor=False)
+    return dict(zip(keys, embeddings))
+
 def getKGvec2go(data, model): #uris):
     keys = data[0]
     uris = data[1]
@@ -88,6 +96,8 @@ def getKGembedding(data, model):
 
 
 def main():
+
+    #pdb.set_trace()
     # load class data
     classesDf = pd.read_csv(dataDir + "classes.csv", sep=";")
     classesDf.set_index("id", inplace=True)
@@ -116,19 +126,54 @@ def main():
 #    bertNameDict = getBERTembeddings([classesDf.index, classesDf["name"]], [bertTokenizer, bertModel])
 #    with open(dataDir + 'embeddings/bert_name.pickle', 'wb') as handle:
 #        pickle.dump(bertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
-#   
+#  
 #    # Wiki Abstract, BERT
 #    bertWikiDict = getBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], [bertTokenizer, bertModel])
 #    with open(dataDir + 'embeddings/bert_wikipedia.pickle', 'wb') as handle:
 #        pickle.dump(bertWikiDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
+#    # load alt BERT
+#    altBertModel = SentenceTransformer('bert-base-cased')
+#    # Name, BERT 
+#    altBertNameDict = getAltBERTembeddings([classesDf.index, classesDf["name"]], altBertModel)
+#    with open(dataDir + "embeddings/alt_bert_name.pickle", "wb") as handle:
+#        pickle.dump(altBertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
+#    # Abstract, BERT
+#    altBertAbstractDict = getAltBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], altBertModel)
+#    with open(dataDir + "embeddings/alt_bert_abstract.pickle", "wb") as handle:
+#        pickle.dump(altBertAbstractDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
+#    # load alt BERT
+#    altBertModel = SentenceTransformer('allenai/scibert_scivocab_cased')
+#    # Name, BERT 
+#    altBertNameDict = getAltBERTembeddings([classesDf.index, classesDf["name"]], altBertModel)
+#    with open(dataDir + "embeddings/alt_scibert_name.pickle", "wb") as handle:
+#        pickle.dump(altBertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+#
+#    # Abstract, BERT
+#    altBertAbstractDict = getAltBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], altBertModel)
+#    with open(dataDir + "embeddings/alt_scibert_abstract.pickle", "wb") as handle:
+#        pickle.dump(altBertAbstractDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # load alt BERT
+    altBertModel = SentenceTransformer('stsb-roberta-large')
+    # Name, BERT 
+    altBertNameDict = getAltBERTembeddings([classesDf.index, classesDf["name"]], altBertModel)
+    with open(dataDir + "embeddings/alt_NLIbert_name.pickle", "wb") as handle:
+        pickle.dump(altBertNameDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-    # load Wikipedia2Vec embeddings 
-    wikipedia2VecModel = Wikipedia2Vec.load(dataDir + "pretrained/enwiki_20180420_300d.pkl") 
-   
-    # Wikipedia Entity, Wikipedia2Vec
-    wikipedia2VecDict = getWikipedia2Vec([classesDf.index,classesDf["DBpedia"]], wikipedia2VecModel) 
-    with open(dataDir + 'embeddings/wikipedia2Vec.pickle', 'wb') as handle:
-        pickle.dump(wikipedia2VecDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # Abstract, BERT
+    altBertAbstractDict = getAltBERTembeddings([classesDf.index, classesDf["DBpedia abstract"]], altBertModel)
+    with open(dataDir + "embeddings/alt_NLIbert_abstract.pickle", "wb") as handle:
+        pickle.dump(altBertAbstractDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+#    # load Wikipedia2Vec embeddings 
+#    wikipedia2VecModel = Wikipedia2Vec.load(dataDir + "pretrained/enwiki_20180420_300d.pkl") 
+#   
+#    # Wikipedia Entity, Wikipedia2Vec
+#    wikipedia2VecDict = getWikipedia2Vec([classesDf.index,classesDf["DBpedia"]], wikipedia2VecModel) 
+#    with open(dataDir + 'embeddings/wikipedia2Vec.pickle', 'wb') as handle:
+#        pickle.dump(wikipedia2VecDict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 #
 #    # load KG Vec 2go 
 #    kgVec2GoModel = KeyedVectors.load(dataDir + "pretrained/sg200_dbpedia_500_8_df_vectors.kv")
